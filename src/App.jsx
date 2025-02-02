@@ -1,9 +1,9 @@
-
+import { useState } from 'react'
 function App() {
 
   return (
-    <div className=''>
-      hello world
+    <div className='text-2xl'>
+        Hello nigga
     </div>
   )
 }
