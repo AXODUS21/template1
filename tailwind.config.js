@@ -8,7 +8,7 @@ export default {
       secondary: "#DBB30F",
       bgColor: "#000000",
       default: "#FFFFFF",
-      
+      navBorder: "#848383",
     },
   },
   plugins: [],

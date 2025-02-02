@@ -5,3 +5,15 @@
 html{
   @apply bg-bgColor text-default
 }
+
+.nav{
+  @apply h-24 w-full flex justify-between items-center
+}
+
+.nav-item{
+  @apply opacity-75 font-semibold
+}
+
+a{
+  @apply cursor-pointer
+}

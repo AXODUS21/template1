@@ -1,10 +1,12 @@
-import { useState } from 'react'
+import Hero from './sections/Hero'
+import Header from './components/Header'
 function App() {
 
   return (
-    <div className='text-2xl'>
-        Hello nigga
-    </div>
+    <main>
+       <Header/>
+       <Hero/>
+    </main>
   )
 }
 
