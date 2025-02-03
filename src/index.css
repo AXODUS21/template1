@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 html{
-  @apply bg-bgColor text-default
+  @apply bg-bgColor text-default overflow-x-hidden
 }
 
 .nav{
-  @apply h-24 w-full flex justify-between items-center
+  @apply h-24 w-full flex justify-between items-center 
 }
 
 .nav-item{
