@@ -2,14 +2,14 @@ import React from 'react'
 import { Element } from 'react-scroll'
 import { gradient, logoBg } from '../../public/assets'
 import Button from "../components/Button"
+import Parallax from '../components/Parallax'
 const Hero = () => {
   return (
-    <Element name="hero" className="w-full">
-      {/*TODO: make this shit responsive and TODO: Parallax effect  */}
+    <Element name="hero" className="w-full h-screen">
       <div className="relative">
         <img className="absolute -top-96 -z-30 left-[-500px]" src={gradient} />
         <img
-          className="absolute -top-64 -z-30 right-[-60px] w-[55````%]"
+          className="absolute -top-32 -z-30 right-[-60px] w-[60%] opacity-5"
           src={logoBg}
         />
       </div>
@@ -23,6 +23,7 @@ const Hero = () => {
             <Button title="Book A Call"/>
           </div>
         </div>
+        <Parallax/>
       </div>
     </Element>
   );

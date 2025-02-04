@@ -1,6 +1,7 @@
 import Hero from './sections/Hero'
 import Header from './components/Header'
 import Slots from './components/Slots'
+import Strategy from './sections/Strategy'
 function App() {
 
   return (
@@ -8,6 +9,7 @@ function App() {
        <Slots/>
        <Header/>
        <Hero/>
+       <Strategy/>
     </main>
   )
 }
