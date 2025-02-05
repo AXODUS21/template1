@@ -9,7 +9,7 @@ export const navigation = [
     id: "2",
     title: "Solutions",
     url: "Solutions",
-    offset: -100,
+    offset: 0,
   },
   {
     id: "3",
