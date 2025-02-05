@@ -13,7 +13,7 @@ html{
 }
 
 .nav-item{
-  @apply opacity-75 font-bold
+  @apply opacity-75 font-bold hover:opacity-100 transition-all duration-100 z-30 text-xs lg:text-sm
 }
 
 a{
@@ -25,11 +25,11 @@ a{
 }
 
 .nav-active{
-  @apply !text-default opacity-100
+  @apply !text-secondary opacity-100
 }
 
 .header{
-  @apply  text-4xl font-semibold
+  @apply lg:text-4xl font-semibold
 }
 .gradient-border {
   padding: 3px;

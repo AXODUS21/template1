@@ -41,19 +41,25 @@ const Header = () => {
   return (
     <div
       ref={navRef}
-      className="fixed top-0 left-0 w-full z-50 pt-5 px-10 mt-5"
+      className="fixed top-0 left-0 w-full z-50 pt-5 lg:px-10 px-0 mt-5"
     >
       <div
-        className={`nav flex items-center justify-between px-10 py-3 rounded-2xl transition-colors duration-300 ${
+        className={`nav flex items-center md:justify-center lg:justify-between px-10 py-3 rounded-2xl transition-colors duration-300 ${
           !hasScrolled
             ? "bg-black text-white"
             : "bg-transparent backdrop-blur-sm"
         }`}
       >
-        <Link smooth={true} offset={-100} duration={500} to="hero">
+        <Link
+          smooth={true}
+          offset={-100}
+          duration={500}
+          to="hero"
+          className="hidden lg:block"
+        >
           <img src={logoBannerNoBg} className="h-full w-44 object-cover" />
         </Link>
-        <div className="flex gap-7 border-2 px-10 py-3 border-navBorder rounded-full">
+        <div className="flex gap-7 border-2 items-center px-10 py-3 border-navBorder rounded-full">
           {navigation.map((item) => (
             <Link
               key={item.id}
@@ -69,7 +75,7 @@ const Header = () => {
             </Link>
           ))}
         </div>
-        <div>
+        <div className="scale-75 hidden lg:block ">
           <Button title={"Book A Call"} />
         </div>
       </div>
