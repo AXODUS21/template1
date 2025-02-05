@@ -7,7 +7,6 @@ const Solutions = () => {
       name="Solutions"
       className="flex justify-center items-center h-[200vh]"
     >
-      
       <CardStack />
     </Element>
   );

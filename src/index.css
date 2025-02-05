@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 html{
-  @apply bg-bgColor text-default overflow-x-hidden
+  @apply bg-bgColor text-default overflow-x-hidden font-main
 }
 
 .nav{
@@ -26,6 +28,9 @@ a{
   @apply !text-default opacity-100
 }
 
+.header{
+  @apply  text-4xl font-semibold
+}
 .gradient-border {
   padding: 3px;
   border-radius: 16px;
@@ -33,7 +38,7 @@ a{
     from 225deg,
     #ffc876,
     #79fff7,
-    #9f53ff,
+    #6528D7,
     #ff98e2,
     #ffc876
   );
