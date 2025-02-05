@@ -11,7 +11,7 @@ html{
 }
 
 .nav-item{
-  @apply opacity-75 font-semibold
+  @apply opacity-75 font-bold
 }
 
 a{
@@ -20,4 +20,27 @@ a{
 
 .container{
   @apply w-screen h-screen
+}
+
+.nav-active{
+  @apply !text-default opacity-100
+}
+
+.gradient-border {
+  padding: 3px;
+  border-radius: 16px;
+  background: conic-gradient(
+    from 225deg,
+    #ffc876,
+    #79fff7,
+    #9f53ff,
+    #ff98e2,
+    #ffc876
+  );
+}
+
+@layer components{
+  .card{
+    @apply absolute top-0 left-0 h-full w-full;
+  }
 }

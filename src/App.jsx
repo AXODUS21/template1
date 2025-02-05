@@ -2,6 +2,8 @@ import Hero from './sections/Hero'
 import Header from './components/Header'
 import Slots from './components/Slots'
 import Strategy from './sections/Strategy'
+import Solutions from './sections/Solutions'
+import Testimonials from './sections/Testimonials'
 function App() {
 
   return (
@@ -10,6 +12,8 @@ function App() {
        <Header/>
        <Hero/>
        <Strategy/>
+       <Solutions/>
+       <Testimonials/>
     </main>
   )
 }
