@@ -6,7 +6,7 @@ const Strategy = () => {
   return (
     <Element name="Our Strategy" className="container mb-20">
       <div className="relative">
-              <img className="absolute -z-30 right-[-600px]" src={gradient} />
+        <img className="absolute -z-30 right-[-600px]" src={gradient} />
       </div>
 
       <div className="w-full h-full flex justify-center">
@@ -24,7 +24,6 @@ const Strategy = () => {
                 height="600"
                 src="https://www.youtube.com/embed/qRODjitiKP8?si=Wgi5pt4tk_kwoDqM"
                 title="YouTube video player"
-                frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
@@ -42,7 +41,7 @@ const Strategy = () => {
             </div>
           </div>
 
-          <div className="text-center font-bold text-xl pt-10">
+          <div className="text-center header pt-10">
             Wanna know how you get clients, without the usual hassle?
           </div>
         </div>

@@ -10,7 +10,7 @@ const Testimonials = () => {
 
       <div className="">
         <div className="">
-          <h2 className='text-center '>
+          <h2 className='text-center header'>
             What our clients have to say about our work
           </h2>
         </div>
