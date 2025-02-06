@@ -3,7 +3,9 @@ import { Element } from 'react-scroll'
 
 const FAQ = () => {
   return (
-    <Element name='FAQ'>FAQ</Element>
+    <Element name='FAQ'>
+        
+    </Element>
   )
 }
 

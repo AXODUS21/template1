@@ -4,6 +4,7 @@ import Slots from './components/Slots'
 import Strategy from './sections/Strategy'
 import Solutions from './sections/Solutions'
 import Testimonials from './sections/Testimonials'
+import CaseStudies from './sections/CaseStudies'
 function App() {
 
   return (
@@ -14,6 +15,7 @@ function App() {
        <Strategy/>
        <Solutions/>
        <Testimonials/>
+       <CaseStudies/>
     </main>
   )
 }

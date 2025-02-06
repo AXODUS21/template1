@@ -62,7 +62,7 @@ export const solutions = [
   },
 ];
 
-export const Testimonials = [
+export const testimonials = [
   {
     id: "0",
     title: "Company 1",
@@ -112,5 +112,40 @@ export const Testimonials = [
     ClientPfp: "",
     clientPosition: "CEO @ mcdonalds",
     imageUrl: "",
+  },
+];
+
+export const caseStudy = [
+  {
+    id: "0",
+    title: "Lead Generation for SaaS Businesses",
+    description:
+      "BrianSaaS is a SaaS business that sells automation software for facebook, before JohnMarketing he had a CLTV of 1000$ and a conversion rate of 10%, after thelp help of JohnMarketing their CLTV increased to 5000$ and conversion rate to 33%, increasing their MRR to about 50.000$",
+    cltv: 5000,
+    convertionRate: 33
+  },
+  {
+    id: "1",
+    title: "Lead Generation for SaaS Businesses",
+    description:
+      "BrianSaaS is a SaaS business that sells automation software for facebook, before JohnMarketing he had a CLTV of 1000$ and a conversion rate of 10%, after thelp help of JohnMarketing their CLTV increased to 5000$ and conversion rate to 33%, increasing their MRR to about 50.000$",
+    cltv: 5000,
+    convertionRate: 33
+  },
+  {
+    id: "2",
+    title: "Lead Generation for SaaS Businesses",
+    description:
+      "BrianSaaS is a SaaS business that sells automation software for facebook, before JohnMarketing he had a CLTV of 1000$ and a conversion rate of 10%, after thelp help of JohnMarketing their CLTV increased to 5000$ and conversion rate to 33%, increasing their MRR to about 50.000$",
+    cltv: 5000,
+    convertionRate: 33
+  },
+  {
+    id: "3",
+    title: "Lead Generation for SaaS Businesses",
+    description:
+      "BrianSaaS is a SaaS business that sells automation software for facebook, before JohnMarketing he had a CLTV of 1000$ and a conversion rate of 10%, after thelp help of JohnMarketing their CLTV increased to 5000$ and conversion rate to 33%, increasing their MRR to about 50.000$",
+    cltv: 5000,
+    convertionRate: 33
   },
 ];
