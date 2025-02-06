@@ -32,7 +32,7 @@ const CaseStudies = () => {
   }, []);
 
   return (
-    <Element name="Testimonials">
+    <Element name="CaseStudy">
       <div className="relative z-2">
         <div className="w-full flex justify-center mb-20">
           <h2 className="header">These are some of our success stories:</h2>

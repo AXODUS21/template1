@@ -5,6 +5,7 @@ import Strategy from './sections/Strategy'
 import Solutions from './sections/Solutions'
 import Testimonials from './sections/Testimonials'
 import CaseStudies from './sections/CaseStudies'
+import FAQ from './sections/FAQ'
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
        <Solutions/>
        <Testimonials/>
        <CaseStudies/>
+       <FAQ/>
     </main>
   )
 }

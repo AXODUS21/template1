@@ -4,7 +4,7 @@ import { Element } from 'react-scroll'
 const FAQ = () => {
   return (
     <Element name='FAQ'>
-        
+        HIHIHIHIHI
     </Element>
   )
 }

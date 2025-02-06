@@ -26,8 +26,8 @@ export const navigation = [
   },
   {
     id: "4",
-    title: "Case Study",
-    url: "Case Study",
+    title: "CaseStudy",
+    url: "CaseStudy",
     offset: -50,
   },
   {
