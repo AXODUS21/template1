@@ -31,6 +31,7 @@ a{
 .header{
   @apply lg:text-4xl font-semibold
 }
+
 .gradient-border {
   padding: 3px;
   border-radius: 16px;

@@ -4,7 +4,7 @@ import Button from '../components/Button';
 import { gradient } from '../../public/assets';
 const Strategy = () => {
   return (
-    <Element name="Our Strategy" className="mb-20">
+    <Element name="Our Strategy">
       <div className="relative">
         <img className="absolute -z-30 right-[-600px]" src={gradient} />
       </div>
