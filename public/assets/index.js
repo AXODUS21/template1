@@ -7,6 +7,7 @@ import logo from "/assets/logo.png"
 import logoBanner from "/assets/logo-banner.png"
 import logoBannerNoBg from "/assets/logo-banner-removebg.png"
 import logoBg from "/assets/logo-background.png"
+import arrowdown from "/assets/arrow-down.png"
 
 export {
     twoStar,
@@ -18,5 +19,6 @@ export {
     logoBanner,
     logoBannerNoBg,
     logoBg,
+    arrowdown
 }
 

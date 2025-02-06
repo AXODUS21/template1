@@ -6,6 +6,7 @@ import Solutions from './sections/Solutions'
 import Testimonials from './sections/Testimonials'
 import CaseStudies from './sections/CaseStudies'
 import FAQ from './sections/FAQ'
+import BookCall from './sections/BookCall'
 function App() {
 
   return (
@@ -18,6 +19,7 @@ function App() {
        <Testimonials/>
        <CaseStudies/>
        <FAQ/>
+       <BookCall/>
     </main>
   )
 }

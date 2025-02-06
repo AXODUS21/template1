@@ -34,7 +34,7 @@ export const navigation = [
     id: "5",
     title: "FAQ",
     url: "FAQ",
-    offset: -100,
+    offset: -50,
   },
 ];
 
@@ -148,4 +148,32 @@ export const caseStudy = [
     cltv: 5000,
     convertionRate: 33
   },
+];
+
+export const faqs = [
+  {
+    id: "0",
+    question: "How fast am i gonna see success?",
+    answer: "like super super fast ;)"
+  },
+  {
+    id: "1",
+    question: "Can you help me with marketing?",
+    answer: "yes, we can help you with marketing, but we are not a marketing agency"
+  },
+  {
+    id: "2",
+    question: "What is your pricing?",
+    answer: "we are a freelance agency, so we have a flat rate of $200 per hour"
+  },
+  {
+    id: "3",
+    question: "Can you help me with my sales?",
+    answer: "yes, we can help you with sales, but we are not a sales agency"
+  },
+  {
+    id: "4",
+    question: "What is your product?",
+    answer: "we are a product development agency, so we help you develop products"
+  }
 ];
