@@ -8,6 +8,13 @@ import logoBanner from "/assets/logo-banner.png"
 import logoBannerNoBg from "/assets/logo-banner-removebg.png"
 import logoBg from "/assets/logo-background.png"
 import arrowdown from "/assets/arrow-down.png"
+import discord from "/assets/socials/discord.svg"
+import email from "/assets/socials/email.svg"
+import facebook from "/assets/socials/facebook.svg"
+import instagram from "/assets/socials/instagram.svg"
+import linkedin from "/assets/socials/linkedin.svg"
+import telegram from "/assets/socials/telegram.svg"
+import twitter from "/assets/socials/twitter.svg"
 
 export {
     twoStar,
@@ -19,6 +26,13 @@ export {
     logoBanner,
     logoBannerNoBg,
     logoBg,
-    arrowdown
+    arrowdown,
+    discord,
+    email,
+    facebook,
+    instagram,
+    linkedin,
+    telegram,
+    twitter,
 }
 

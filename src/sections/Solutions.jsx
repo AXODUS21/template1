@@ -1,6 +1,7 @@
 import React from 'react'
 import { Element } from "react-scroll";
 import CardStack from '../components/CardStack';
+import { gradient } from '../../public/assets';
 const Solutions = () => {
   return (
     <Element

@@ -2,6 +2,7 @@ import { caseStudy } from "../constants";
 import { useEffect, useRef } from "react";
 import { Element } from "react-scroll";
 import Button from "../components/Button";
+import { gradient } from "../../public/assets";
 const CaseStudies = () => {
   const scrollContainerRef = useRef(null);
 
@@ -34,6 +35,9 @@ const CaseStudies = () => {
   return (
     <Element name="CaseStudy">
       <div className="relative z-2">
+         <div className="relative">
+                      <img className="absolute -z-30 right-[-600px]" src={gradient} />
+                  </div>
         <div className="w-full flex justify-center mb-20">
           <h2 className="header">These are some of our success stories:</h2>
         </div>

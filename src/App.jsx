@@ -7,6 +7,7 @@ import Testimonials from './sections/Testimonials'
 import CaseStudies from './sections/CaseStudies'
 import FAQ from './sections/FAQ'
 import BookCall from './sections/BookCall'
+import Footer from './sections/Footer'
 function App() {
 
   return (
@@ -20,6 +21,7 @@ function App() {
        <CaseStudies/>
        <FAQ/>
        <BookCall/>
+       <Footer/>
     </main>
   )
 }

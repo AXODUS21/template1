@@ -2,7 +2,14 @@ import {
   twoStar,
   threeStar,
   fourStar,
-  fiveStar
+  fiveStar,
+  discord,
+  email,
+  facebook,
+  instagram,
+  linkedin,
+  telegram,
+  twitter,
 } from "../../public/assets";
 
 export const navigation = [
@@ -34,7 +41,7 @@ export const navigation = [
     id: "5",
     title: "FAQ",
     url: "FAQ",
-    offset: -50,
+    offset: 0,
   },
 ];
 
@@ -177,3 +184,26 @@ export const faqs = [
     answer: "we are a product development agency, so we help you develop products"
   }
 ];
+
+export const socials = [
+  {
+    id: "0",
+    icon: facebook,
+    url: "https://www.facebook.com/brianSaaS"
+  },
+  {
+    id: "1",
+    icon: instagram,
+    url: "https://www.instagram.com/brian_saas/"
+  },
+  {
+    id: "2",
+    icon: twitter,
+    url: "https://www.twitter.com/briansaas"
+  },
+  {
+    id: "3",
+    icon: linkedin,
+    url: "https://www.linkedin.com/company/briansaas/"
+  }
+]

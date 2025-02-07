@@ -2,6 +2,7 @@
   import { useEffect, useRef } from "react";
   import { Element } from "react-scroll";
   import Button from "../components/Button"
+  import { gradient } from "../../public/assets";
   const Testimonials = () => {
     const scrollContainerRef = useRef(null);
 
@@ -33,6 +34,9 @@
 
     return (
       <Element name="Testimonials" className="mb-20">
+          <div className="relative">
+              <img className="absolute -z-30 left-[-600px]" src={gradient} />
+          </div>
         <div className="relative z-2">
           <div className="w-full flex justify-center mb-20">
             <h2 className="header">What clients have to say about our work</h2>

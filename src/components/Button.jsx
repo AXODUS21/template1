@@ -5,7 +5,10 @@ import styled from "styled-components";
 const Button = ({title}) => {
   return (
     <StyledWrapper>
-      <Link to="Book A Call" className="flex justify-center">
+      <Link
+        smooth={true}
+        duration={500}
+        to="Call" className="flex justify-center">
         <button>
           <div className="svg-wrapper-1">
             <div className="svg-wrapper">
