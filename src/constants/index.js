@@ -10,6 +10,8 @@ import {
   linkedin,
   telegram,
   twitter,
+  Object1,
+  Object2
 } from "../../public/assets";
 
 export const navigation = [
@@ -51,14 +53,14 @@ export const solutions = [
     title: "First we set up the campaign for you ",
     description:
       "We begin by setting the foundation for the campaign by researching you ICP, and set up the general foundation for the plan",
-    img: "",
+    img: Object1,
   },
   {
     id: "2",
     title: "Title 2",
     description:
       "We begin by setting the foundation for the campaign by researching you ICP, and set up the general foundation for the plan",
-    img: "",
+    img: Object2,
   },
   {
     id: "3",

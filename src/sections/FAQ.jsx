@@ -13,7 +13,7 @@ const FAQ = () => {
       </div>
 
       <div className="flex w-full justify-center">
-        <div className="grid gap-5 w-2/3">
+        <div className="grid gap-5 w-10/12 lg:w-2/3">
           {faqs.map((faq) => {
             const active = activeId === faq.id;
 
@@ -24,7 +24,7 @@ const FAQ = () => {
                 active ? "bg-primary h-40" : "bg-secondary h-16"
               }`}
             >
-              <h3 className="text-2xl font-semibold mb-5 flex justify-between">
+              <h3 className="lg:text-2xl font-semibold mb-5 flex justify-between">
                 {faq.question}
                 <div
                   onClick={() => setActiveId(faq.id)}

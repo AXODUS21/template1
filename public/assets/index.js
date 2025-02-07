@@ -15,6 +15,8 @@ import instagram from "/assets/socials/instagram.svg"
 import linkedin from "/assets/socials/linkedin.svg"
 import telegram from "/assets/socials/telegram.svg"
 import twitter from "/assets/socials/twitter.svg"
+import Object1 from "/assets/3dObjects/Object1.png"
+import Object2 from "/assets/3dObjects/Object2.png"
 
 export {
     twoStar,
@@ -34,5 +36,7 @@ export {
     linkedin,
     telegram,
     twitter,
+    Object1,
+    Object2
 }
 
