@@ -17,6 +17,8 @@ import telegram from "/assets/socials/telegram.svg"
 import twitter from "/assets/socials/twitter.svg"
 import Object1 from "/assets/3dObjects/Object1.png"
 import Object2 from "/assets/3dObjects/Object2.png"
+import bgFill from "/assets/bg-outlines-fill.png"
+import bgOutlines from "/assets/bg-outlines.svg"
 
 export {
     twoStar,
@@ -37,6 +39,8 @@ export {
     telegram,
     twitter,
     Object1,
-    Object2
+    Object2,
+    bgFill,
+    bgOutlines
 }
 
