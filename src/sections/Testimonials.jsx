@@ -33,7 +33,7 @@
     }, []);
 
     return (
-      <Element name="Testimonials" className="mb-20">
+      <Element name="Testimonials" className="mb-20 pb-5 pt-5">
           <div className="relative">
               <img className="absolute -z-30 left-[-600px]" src={gradient} />
           </div>

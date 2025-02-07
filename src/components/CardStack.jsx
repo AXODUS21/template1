@@ -77,11 +77,11 @@ const CardStack = () => {
       <div className="relative -top-64 w-11/12 lg:w-2/3 h-2/3">
         {solutions.map((item) => (
           <div key={item.id} className="card w-full h-full">
-            <div className="h-full flex justify-center bg-primary rounded-2xl border-secondary border-2">
+            <div className="h-full flex justify-center bg-primary rounded-2xl border-secondary border-2 ">
 
               <div className="text-default">
                 <div className="lg:flex justify-around h-full">
-                  <div className="lg:w-1/2 lg:pt-16 lg:border-r-2 border-b-2 border-secondary relative place-items-center lg:place-items-start pt-5 lg:pb-0 pb-10">
+                  <div className="lg:w-1/2 lg:pt-16 lg:border-r-2 max-sm:border-b-2 border-secondary relative place-items-center lg:place-items-start pt-5 lg:pb-0 pb-10">
                     <div className="absolute h-16 w-16 rounded-full bg-primary border-secondary border-2 lg:-right-8 lg:bottom-2/4 -bottom-[9vw] right-[36vw]">
                         <img id="cardLogo" src={logo}/>
                     </div>

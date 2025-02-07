@@ -19,31 +19,31 @@ export const navigation = [
     id: "1",
     title: "Our Strategy",
     url: "Our Strategy",
-    offset: 0,
+    offset: -100,
   },
   {
     id: "2",
     title: "Solutions",
     url: "Solutions",
-    offset: 0,
+    offset: -100,
   },
   {
     id: "3",
     title: "Testimonials",
     url: "Testimonials",
-    offset: -50,
+    offset: -90,
   },
   {
     id: "4",
     title: "CaseStudy",
     url: "CaseStudy",
-    offset: -50,
+    offset: -100,
   },
   {
     id: "5",
     title: "FAQ",
     url: "FAQ",
-    offset: 0,
+    offset: -100,
   },
 ];
 

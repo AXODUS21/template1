@@ -19,7 +19,7 @@ const CaseStudies = () => {
       const autoScroll = () => {
         container.scrollLeft += scrollSpeed;
 
-        if (container.scrollLeft >= container.scrollWidth / 2) {
+        if (Math.abs(container.scrollLeft - container.scrollWidth / 2) < 1) {
           container.scrollLeft = 0;
         }
 
