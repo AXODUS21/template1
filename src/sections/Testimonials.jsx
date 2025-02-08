@@ -36,7 +36,7 @@ const Testimonials = () => {
         >
           {testimonials.map((item, index) => (
             <div
-              className="testimonial block relative p-0.5 bg-no-repeat bg-[length:100%_100%] w-[70dvw] md:w-[40vw] lg:w-[25svw] border-2 border-primary rounded-lg mx-5"
+              className={`testimonial block relative p-0.5 bg-no-repeat bg-[length:100%_100%] w-[70dvw] md:w-[40vw] lg:w-[25svw] border-2 rounded-lg mx-5 border-primary`}
               key={index}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none w-[70dvw] md:w-[40vw] lg:w-[25vw]">

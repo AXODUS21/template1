@@ -75,7 +75,7 @@ export const solutions = [
 
 export const testimonials = [
   {
-    id: "0",
+    id: "1",
     title: "Company 1",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     stars: fiveStar,
@@ -85,7 +85,7 @@ export const testimonials = [
     imageUrl: "",
   },
   {
-    id: "1",
+    id: "2",
     title: "Company 2",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     stars: threeStar,
@@ -95,7 +95,7 @@ export const testimonials = [
     imageUrl: "",
   },
   {
-    id: "2",
+    id: "3",
     title: "Company 3",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     stars: fourStar,
@@ -105,7 +105,7 @@ export const testimonials = [
     imageUrl: "",
   },
   {
-    id: "3",
+    id: "4",
     title: "Company 4",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     stars: fiveStar,
@@ -115,7 +115,7 @@ export const testimonials = [
     imageUrl: "",
   },
   {
-    id: "4",
+    id: "5",
     title: "Company 5",
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     stars: fiveStar,

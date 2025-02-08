@@ -29,7 +29,7 @@ const CaseStudies = () => {
         <Marquee speed={50} gradient={false} className="mb-20">
           {caseStudy.map((item, index) => (
             <div
-              className="testimonial block relative p-0.5 w-[95dvw] md:w-[40vw] lg:w-[38svw] border-2 border-primary rounded-lg mx-5"
+              className="testimonial block relative p-0.5 w-[95dvw] md:w-[40vw] lg:w-[38svw] border-2 border-secondary rounded-lg mx-5"
               key={index}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none w-[95dvw] md:w-[70dvw] lg:w-[38dvw]">
