@@ -60,14 +60,14 @@ export const solutions = [
     title: "Title 2",
     description:
       "We begin by setting the foundation for the campaign by researching you ICP, and set up the general foundation for the plan",
-    img: Object2,
+    img: Object1,
   },
   {
     id: "3",
     title: "Title 3",
     description:
-      "We begin by setting the foundation for the campaign by researching you ICP, and set up the general foundation for the plan",
-    img:"",
+     "We begin by setting the foundation for the campaign by researching you ICP, and set up the general foundation for the plan",
+    img:Object1,
   },
 ];
 

@@ -62,11 +62,22 @@ const CardStack = () => {
         }
        })
 
-       gsap.fromTo("#threeDImage", {
-
-       },{
-
-       })
+       gsap.fromTo(
+         "#threeDImage",
+         {
+           scale: 1.5,
+         },
+         {
+           scale: 1,
+           stagger: 0.5,
+           scrollTrigger: {
+             trigger: container.current,
+             start: "top center",
+             end: "bottom center",
+             scrub: 0.5,
+           },
+         }
+       );
     }, container);
 
     return () => ctx.revert(); // Cleanup
@@ -77,12 +88,12 @@ const CardStack = () => {
       <div className="relative -top-64 w-11/12 lg:w-2/3 h-2/3">
         {solutions.map((item) => (
           <div key={item.id} className="card w-full h-full">
-            <div className="h-full flex justify-center bg-primary rounded-2xl border-secondary border-2 ">
+            <div className="h-full flex justify-center bg-primary rounded-2xl border-secondary border-2 overflow-hidden">
 
               <div className="text-default">
                 <div className="lg:flex justify-around h-full">
-                  <div className="lg:w-1/2 lg:pt-16 lg:border-r-2 max-sm:border-b-2 border-secondary relative place-items-center lg:place-items-start pt-5 lg:pb-0 pb-10">
-                    <div className="absolute h-16 w-16 rounded-full bg-primary border-secondary border-2 lg:-right-8 lg:bottom-2/4 -bottom-[9vw] right-[36vw]">
+                  <div className="lg:w-1/2 lg:pt-16 pl-0 lg:pl-6 lg:border-r-2 max-sm:border-b-2 border-secondary relative place-items-center lg:place-items-start pt-5 lg:pb-0 pb-10">
+                    <div className="absolute h-16 w-16 z-10 rounded-full bg-primary border-secondary border-2 lg:-right-8 lg:bottom-2/4 -bottom-[9vw] right-[36vw]">
                         <img id="cardLogo" src={logo}/>
                     </div>
                     <h1 className="font-bold text-xl lg:text-5xl mb-4 lg:text-start text-center px-4 lg:px-0"> 
@@ -93,9 +104,9 @@ const CardStack = () => {
                     </p>
                   </div>
 
-                  <div className="flex items-center justify-center lg:flex ">
-                    <div className="rounded-lg overflow-hidden w-12/12 h-96">
-                      <img id="threeDImage" src={item.img} alt="graphic" className="rounded-lg" height={50} width={350} />
+                  <div className="flex items-center lg:w-1/2 h-full justify-center lg:flex rounded-2xl overflow-hidden ">
+                    <div className="overflow-hidden ">
+                      <img id="threeDImage" src={item.img} alt="graphic" className="w-full h-full object-fill" />
                     </div>
                   </div>
 
