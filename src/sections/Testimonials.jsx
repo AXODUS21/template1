@@ -57,9 +57,10 @@
                   <p className="body-2 mb-6 text-n-3">{item.text}</p>
                   <div className="flex items-center mt-auto">
                     <img
+                      className="rounded-full"
                       src={item.ClientPfp}
-                      width={48}
-                      height={48}
+                      width={52}
+                      height={52}
                       alt={item.title}
                     />
                     <div className="ml-auto font-main text-xs font-bold text-n-1 uppercase tracking-wider">
@@ -80,10 +81,10 @@
                 </div>
 
                 <div className="absolute inset-0.5 bg-n-8">
-                  <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
-                    {item.imageUrl && (
+                  <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10 duration-500">
+                    {item.ClientPfp && (
                       <img
-                        src={item.imageUrl}
+                        src={item.ClientPfp}
                         width={380}
                         height={362}
                         alt={item.title}

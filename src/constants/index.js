@@ -11,7 +11,9 @@ import {
   telegram,
   twitter,
   Object1,
-  Object2
+  Object2,
+  client1,
+  client2
 } from "../../public/assets";
 
 export const navigation = [
@@ -78,7 +80,7 @@ export const testimonials = [
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     stars: fiveStar,
     clientName: "Client 1",
-    ClientPfp: "",
+    ClientPfp: client1,
     clientPosition: "CEO @ google",
     imageUrl: "",
   },
@@ -88,7 +90,7 @@ export const testimonials = [
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     stars: threeStar,
     clientName: "Client 1",
-    ClientPfp: "",
+    ClientPfp: client2,
     clientPosition: "CEO @ facebook",
     imageUrl: "",
   },
@@ -98,7 +100,7 @@ export const testimonials = [
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     stars: fourStar,
     clientName: "Client 1",
-    ClientPfp: "",
+    ClientPfp: client1,
     clientPosition: "CEO @ scaleset",
     imageUrl: "",
   },
@@ -108,7 +110,7 @@ export const testimonials = [
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     stars: fiveStar,
     clientName: "Client 1",
-    ClientPfp: "",
+    ClientPfp: client1,
     clientPosition: "CEO @ bottleo",
     imageUrl: "",
   },
@@ -118,7 +120,7 @@ export const testimonials = [
     text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
     stars: fiveStar,
     clientName: "Client 1",
-    ClientPfp: "",
+    ClientPfp: client2,
     clientPosition: "CEO @ mcdonalds",
     imageUrl: "",
   },

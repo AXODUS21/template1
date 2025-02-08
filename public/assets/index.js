@@ -19,6 +19,8 @@ import Object1 from "/assets/3dObjects/Object1.jpg"
 import Object2 from "/assets/3dObjects/Object2.png"
 import bgFill from "/assets/bg-outlines-fill.png"
 import bgOutlines from "/assets/bg-outlines.svg"
+import client1 from "/assets/testimonial/client1.png"
+import client2 from "/assets/testimonial/client2.jpg"
 
 export {
     twoStar,
@@ -41,6 +43,8 @@ export {
     Object1,
     Object2,
     bgFill,
-    bgOutlines
+    bgOutlines,
+    client1,
+    client2
 }
 

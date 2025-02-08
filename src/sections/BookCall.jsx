@@ -23,7 +23,7 @@ const BookCall = () => {
       <div className="flex justify-center">
         <div className="grid gap-10">
           <div className="flex justify-center">
-            <h2 className="header">
+            <h2 className="header text-center w-2/3">
               Book your FREE demo here and find out if we're a match
             </h2>
           </div>

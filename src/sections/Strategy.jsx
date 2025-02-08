@@ -21,6 +21,7 @@ const Strategy = () => {
           <div className="flex justify-center w-full h-fit">
             <div className="w-2/3 h-[350px] lg:h-[580px] flex justify-center mb-5 gradient-border">
               <iframe
+                loading='lazy'
                 className="h-full w-full  rounded-xl"
                 src="https://www.youtube.com/embed/qRODjitiKP8?si=Wgi5pt4tk_kwoDqM"
                 title="YouTube video player"

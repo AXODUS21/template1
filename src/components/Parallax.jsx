@@ -1,15 +1,26 @@
+import { useGSAP } from '@gsap/react';
+import gsap from 'gsap';
 import React, {useState, useEffect} from 'react'
 import { MouseParallax } from 'react-just-parallax';
 
 const Parallax = ({parallaxRef}) => {
-      const [mounted, setMounted] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
+  useGSAP(() => {
+    gsap.fromTo("#parallax", {
+      opacity:0
+    },{
+      opacity:1,
+      duration: 1,
+      delay:1,
+    })
+  })
   return (
-    <div className="absolute -top-[42.375rem] left-1/2 w-[78rem] aspect-square rounded-full -translate-x-1/2 md:-top-[38.5rem] xl:-top-[0rem] -z-10">
+    <div id='parallax' className="absolute -top-[42.375rem] left-1/2 w-[78rem] aspect-square rounded-full -translate-x-1/2 md:-top-[38.5rem] xl:-top-[0rem] -z-10">
 
       {/* Moving background colored circle balls */}
       <MouseParallax strength={0.07} parallaxContainerRef={parallaxRef}>
