@@ -88,28 +88,35 @@ const CardStack = () => {
       <div className="relative -top-64 w-11/12 lg:w-2/3 h-2/3">
         {solutions.map((item) => (
           <div key={item.id} className="card w-full h-full">
-            <div className="h-full flex justify-center bg-primary rounded-2xl border-secondary border-2 overflow-hidden">
-
+            <div
+              className={`h-full flex justify-center rounded-2xl border-2 overflow-hidden ${
+                item.id === "2"
+                  ? "bg-secondary border-primary"
+                  : "bg-primary border-secondary "
+              }`}
+            >
               <div className="text-default">
                 <div className="lg:flex justify-around h-full">
-                  <div className="lg:w-1/2 lg:pt-16 pl-0 lg:pl-6 lg:border-r-2 max-sm:border-b-2 border-secondary relative place-items-center lg:place-items-start pt-5 lg:pb-0 pb-10">
-                    <div className="absolute h-16 w-16 z-10 rounded-full bg-primary border-secondary border-2 lg:-right-8 lg:bottom-2/4 -bottom-[9vw] right-[36vw]">
-                        <img id="cardLogo" src={logo}/>
+                  <div className={`lg:w-1/2 lg:pt-16 pl-0 lg:pl-6 lg:border-r-2 max-sm:border-b-2 relative place-items-center lg:place-items-start pt-5 lg:pb-0 pb-10 ${item.id === "2" ? "border-primary" : "border-secondary"}`}>
+                    <div className={`absolute h-16 w-16 z-10 rounded-full bg-primary border-2 lg:-right-8 lg:bottom-2/4 -bottom-[9vw] right-[36vw] ${item.id === "2" ? "border-primary" : "border-secondary"}`}>
+                      <img id="cardLogo" src={logo} />
                     </div>
-                    <h1 className="font-bold text-xl lg:text-5xl mb-4 lg:text-start text-center px-4 lg:px-0"> 
+                    <h1 className="font-bold text-xl lg:text-5xl mb-4 lg:text-start text-center px-4 lg:px-0">
                       {item.title}
                     </h1>
-                    <p className="w-11/12 lg:px-0 px-10">
-                      {item.description}
-                    </p>
+                    <p className="w-11/12 lg:px-0 px-10">{item.description}</p>
                   </div>
 
                   <div className="flex items-center lg:w-1/2 h-full justify-center lg:flex rounded-2xl overflow-hidden ">
                     <div className="overflow-hidden ">
-                      <img id="threeDImage" src={item.img} alt="graphic" className="w-full h-full object-fill" />
+                      <img
+                        id="threeDImage"
+                        src={item.img}
+                        alt="graphic"
+                        className="w-full h-full object-fill"
+                      />
                     </div>
                   </div>
-
                 </div>
               </div>
             </div>

@@ -19,9 +19,11 @@ import Object1 from "/assets/3dObjects/Object1.jpg"
 import Object2 from "/assets/3dObjects/Object2.png"
 import bgFill from "/assets/bg-outlines-fill.png"
 import bgOutlines from "/assets/bg-outlines.svg"
+
 import client1 from "/assets/testimonial/client1.png"
 import client2 from "/assets/testimonial/client2.jpg"
 
+import stars from "/assets/stars.svg"
 export {
     twoStar,
     threeStar,
@@ -45,6 +47,7 @@ export {
     bgFill,
     bgOutlines,
     client1,
-    client2
+    client2,
+    stars
 }
 
