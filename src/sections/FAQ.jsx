@@ -7,7 +7,7 @@ const FAQ = () => {
   const [activeId, setActiveId] = useState()
   
   return (
-    <Element name="FAQ" className='mb-20 pt-10'>
+    <Element name="FAQ" className='mb-20 pb-10 pt-10'>
       <div className="mb-10">
         <h2 className="header text-center">Frequently Asked Questions</h2>
       </div>

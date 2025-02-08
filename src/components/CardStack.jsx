@@ -107,7 +107,7 @@ const CardStack = () => {
                     <p className="w-11/12 lg:px-0 px-10">{item.description}</p>
                   </div>
 
-                  <div className="flex items-center lg:w-1/2 h-full justify-center lg:flex rounded-2xl overflow-hidden ">
+                  <div className="flex items-center lg:w-1/2 h-full justify-center lg:flex overflow-hidden ">
                     <div className="overflow-hidden ">
                       <img
                         id="threeDImage"

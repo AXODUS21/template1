@@ -1,15 +1,11 @@
 import { testimonials } from "../constants";
 import { Element } from "react-scroll";
 import Button from "../components/Button";
-import Marquee from "react-fast-marquee"; // Importing react-fast-marquee
+import Marquee from "react-fast-marquee";
 import { gradient } from "../../public/assets";
 import { stars } from "../../public/assets";
-import { useState } from "react";
 
 const Testimonials = () => {
-  const [isHovering, setIsHovering] = useState(false)
-
-
   return (
     <Element name="Testimonials" className="mb-20 pb-5 pt-5 relative">
       <div className="absolute top-1/2 left-1/2 w-[60rem] -translate-x-1/2 -translate-y-1/2 pointer-events-none">
@@ -32,7 +28,12 @@ const Testimonials = () => {
         </div>
 
         <Marquee
-          speed={isHovering ? 20 : 50} gradient={false} direction="right" className="mb-20">
+          speed={50}
+          gradient={false}
+          direction="right"
+          pauseOnHover={true} // Ensure smooth pause instead of speed change
+          className="mb-20"
+        >
           {testimonials.map((item, index) => (
             <div
               className="testimonial block relative p-0.5 bg-no-repeat bg-[length:100%_100%] w-[70dvw] md:w-[40vw] lg:w-[25svw] border-2 border-primary rounded-lg mx-5"
