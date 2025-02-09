@@ -8,7 +8,7 @@ const Slots = () => {
   const [isNavOpen, setIsNavOpen] = useState(false)
 
   return (
-    <div className={`flex gap-1 pt-4 w-full backdrop-blur-sm fixed pb-2 z-50 ${isNavOpen ? "bg-bgColor" : ""}`}>
+    <div className={`flex gap-1 pt-4 w-screen backdrop-blur-sm fixed pb-2 z-50 ${isNavOpen ? "bg-bgColor" : ""}`}>
       <div className="flex relative w-full justify-center gap-1">
         <h1 className="font-semibold">Client Slots Left:</h1>
         <span className="font-semibold text-primary">10</span>
