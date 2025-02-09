@@ -5,7 +5,7 @@
 
 
 html{
-  @apply bg-bgColor text-default overflow-x-hidden font-main
+  @apply bg-bgColor text-default overflow-x-hidden font-main w-screen
 }
 
 .nav{
