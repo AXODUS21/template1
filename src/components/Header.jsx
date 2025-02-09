@@ -41,7 +41,7 @@
     return (
       <div
         ref={navRef}
-        className="fixed top-0 left-0 w-full z-50 pt-5 lg:px-10 px-0 mt-5 lg:block hidden"
+        className="fixed w-full z-50 pt-5 lg:px-10 px-0 mt-5 lg:block hidden"
       >
         <div
           className={`nav flex items-center md:justify-center lg:justify-between px-10 py-3 rounded-2xl transition-colors duration-300 ${
