@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <Element name="hero" className="w-full h-screen">
       <div className="relative">
-        <img className="absolute lg:-top-96 -z-30 lg:left-[-500px] max-sm:top-12 max-sm:left-[-140px] max-sm:scale-150" src={gradient} />
+        <img className="absolute lg:-top-96 -z-30 lg:left-[-500px] max-sm:top-12 max-sm:left-[-140px] max-sm:scale-150 w-screen" src={gradient} />
         <img
           className="absolute lg:-top-32 -z-30 lg:right-[-60px] lg:w-[60%] opacity-5 max-sm:top-36 max-sm:right-[-50px]"
           src={logoBg}
