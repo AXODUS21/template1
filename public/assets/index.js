@@ -24,6 +24,8 @@ import client1 from "/assets/testimonial/client1.png"
 import client2 from "/assets/testimonial/client2.jpg"
 
 import stars from "/assets/stars.svg"
+import close from "/assets/close.png"
+
 export {
     twoStar,
     threeStar,
@@ -48,6 +50,7 @@ export {
     bgOutlines,
     client1,
     client2,
-    stars
+    stars,
+    close
 }
 
