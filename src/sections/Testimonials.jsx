@@ -66,6 +66,7 @@ const Testimonials = () => {
                   </div>
                 </div>
               </div>
+
               <div className="absolute inset-0.5 bg-n-8">
                 <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10 duration-500">
                   {item.ClientPfp && (
@@ -74,7 +75,7 @@ const Testimonials = () => {
                       width={380}
                       height={362}
                       alt={item.title}
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover select-none"
                     />
                   )}
                 </div>

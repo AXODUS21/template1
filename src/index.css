@@ -31,7 +31,6 @@ a{
 .header{
   @apply lg:text-4xl font-semibold
 }
-
 .gradient-border {
   padding: 3px;
   border-radius: 16px;
@@ -51,3 +50,15 @@ a{
   }
 }
 
+.testimonial-border{  
+  background: linear-gradient(to bottom right, var(--tw-gradient-from), var(--tw-gradient-to));
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  padding: 2px;
+}

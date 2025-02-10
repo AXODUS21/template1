@@ -6,49 +6,12 @@
   import { navigation } from "../constants";
 
   const Header = () => {
-    const navRef = useRef(null);
-    const [lastScrollY, setLastScrollY] = useState(0);
-    const [isNavVisible, setIsNavVisible] = useState(true);
-    const [hasScrolled, setHasScrolled] = useState(false);
-
-    useEffect(() => {
-      const handleScroll = () => {
-        const currentScrollY = window.scrollY;
-
-        setHasScrolled(currentScrollY > 0); // Set background color if scrolled
-
-        if (currentScrollY > lastScrollY) {
-          setIsNavVisible(false);
-        } else {
-          setIsNavVisible(true);
-        }
-
-        setLastScrollY(currentScrollY);
-      };
-
-      window.addEventListener("scroll", handleScroll);
-      return () => window.removeEventListener("scroll", handleScroll);
-    }, [lastScrollY]);
-
-    useEffect(() => {
-      gsap.to(navRef.current, {
-        y: isNavVisible ? 0 : -100,
-        opacity: isNavVisible ? 1 : 0,
-        duration: 0.2,
-      });
-    }, [isNavVisible]);
-
     return (
       <div
-        ref={navRef}
         className="fixed w-full z-50 pt-5 lg:px-10 px-0 mt-5 lg:block hidden"
       >
         <div
-          className={`nav flex items-center md:justify-center lg:justify-between px-10 py-3 rounded-2xl transition-colors duration-300 ${
-            !hasScrolled
-              ? "bg-black text-white"
-              : "bg-transparent backdrop-blur-sm"
-          }`}
+          className={`nav flex items-center md:justify-center lg:justify-between px-10 py-3 rounded-2xl transition-colors duration-300 bg-transparent backdrop-blur-sm`}
         >
           <Link
             smooth={true}

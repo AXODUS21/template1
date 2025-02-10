@@ -23,7 +23,6 @@ const Hero = () => {
             <Button title="Book A Call"/>
           </div>
         </div>
-        <Parallax/>
       </div>
     </Element>
   );
